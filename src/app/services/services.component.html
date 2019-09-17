@@ -1,0 +1,26 @@
+<p>services works!</p>
+<table class="bg-light table table-bordered mt-5">
+    <tr>
+        <th>Name</th>
+        <th>Fathername</th>
+        <th>Mothername</th>
+        <th>DOB</th>
+        <th>mobile</th>
+        <th>Email</th>
+        <th>Gender</th>
+        <th>Religion</th>
+        <th>Nationality</th>
+
+    </tr>
+    <tr *ngFor="let i of myFinalDetails">
+        <td>{{i.Name}}</td>
+        <td>{{i.Fathername}}</td>
+        <td>{{i.Mothername}}</td>
+        <td>{{i.DOB}}</td>
+        <td>{{i.mobile}}</td>
+        <td>{{i.Email}}</td>
+        <td>{{i.gender}}</td>
+        <td>{{i.religion}}</td>
+        <td>{{i.Nationality}}</td>
+    </tr>
+</table>
